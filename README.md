@@ -8,6 +8,16 @@
 pip install fundev-api
 ```
 
+## 最小示例
+
+当前仅有占位实现，可以确认安装成功并读取版本号：
+
+```python
+import fundev_api
+
+print(fundev_api.__version__)  # 0.0.1
+```
+
 ---
 
 ## 关于 farfarfun
