@@ -1,7 +1,7 @@
 [project]
 name = "fundev-api"
 version = "0.0.1"
-description = "fundev-api"
+description = "占位包，用于预留 fundev-api 的 PyPI 包名，当前仅提供版本信息"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
