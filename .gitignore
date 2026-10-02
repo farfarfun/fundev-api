@@ -67,6 +67,29 @@ db.sqlite3-journal
 
 # Runtime files (logs / PID / lock)
 .run/
+logs/
+
+# AI 编码助手：本地状态不进版本管理，团队共享定义要进
+#   必须写 dir/* 而不是 dir/，否则后面的 ! 取消规则不会生效
+.claude/*
+!.claude/agents/
+!.claude/commands/
+!.claude/skills/
+!.claude/settings.json
+.codex/*
+!.codex/prompts/
+.cursor/*
+!.cursor/agents/
+!.cursor/rules/
+.aider*
+.gemini/
+.continue/
+.windsurf/
+.roo/
+.cline/
+.specstory/
+CLAUDE.local.md
+AGENTS.local.md
 
 # Flask stuff:
 instance/
